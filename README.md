@@ -1,6 +1,6 @@
 # Servchk
 
-VB6 working copy of `Servchk` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: ServerCheck. Output: `ServerCheck.exe`. `VersionCompanyName`: CSC.
+VB6 server-check batch builder (`ServerCheck.exe`): loads a server list via ADO, picks targets/task lists, and creates `.bat` jobs (e.g. `dir *.[type]`, `diruse /m /*`) for selected hosts. Open `ServerCheck.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,22 +10,4 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `ServerCheck` (`ServerCheck.vbp`) | VB6 | WinForms exe | ServerCheck |
-
-## How to open
-
-Open the `.vbp` in Visual Basic 6.0 IDE:
-- `ServerCheck.vbp`
-
-## Requirements
-
-- Visual Basic 6.0 IDE
-
-## Attribution and provenance
-
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/Servchk`.
-Company names in project files: CSC.
-
-## License
-
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+| `ServerCheck` (`ServerCheck.vbp`) | VB6 | WinForms exe | Build remote server check `.bat` files from ADO list |
